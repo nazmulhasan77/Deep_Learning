@@ -1,0 +1,177 @@
+# =========================================
+
+# 🧠 PYTHON (ALL SUBFOLDERS)
+
+# =========================================
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*$py.class
+
+# =========================================
+
+# 🧪 VIRTUAL ENVIRONMENTS (ANYWHERE)
+
+# =========================================
+
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# =========================================
+
+# 📊 JUPYTER (ALL LEVELS)
+
+# =========================================
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# =========================================
+
+# 📦 BUILD / CACHE
+
+# =========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================================
+
+# 📁 DATASETS (ALL SUBFOLDERS)
+
+# =========================================
+
+data/
+datasets/
+**/data/
+**/datasets/
+
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar
+*.gz
+
+# =========================================
+
+# 🤖 MODELS / WEIGHTS (ALL)
+
+# =========================================
+
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+**.npy
+
+**/models/
+**/checkpoints/
+**/weights/
+
+# =========================================
+
+# 📈 EXPERIMENT OUTPUTS
+
+# =========================================
+
+outputs/
+results/
+runs/
+**/outputs/
+**/results/
+**/runs/
+
+# =========================================
+
+# 📜 LOGS (EVERYWHERE)
+
+# =========================================
+
+logs/
+*.log
+**/logs/
+
+wandb/
+mlruns/
+lightning_logs/
+
+# =========================================
+
+# 🔐 ENV / SECRETS
+
+# =========================================
+
+.env
+*.env
+**/.env
+
+# =========================================
+
+# 🖼️ MEDIA FILES (OPTIONAL)
+
+# =========================================
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# =========================================
+
+# 🧰 IDE / EDITOR
+
+# =========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================================
+
+# 🖥️ SYSTEM FILES
+
+# =========================================
+
+.DS_Store
+Thumbs.db
+
+# =========================================
+
+# ⚡ FRAMEWORK CACHE (ALL SUBFOLDERS)
+
+# =========================================
+
+**/cache/
+**/.cache/
+hf_cache/
+**/hf_cache/
+
+# =========================================
+
+# 🚀 OPTIONAL (ALLOW SOME FILES)
+
+# =========================================
+
+# Keep small examples
+
+!data/sample.csv
+!datasets/sample/
+
+# Keep README in ignored folders
+
+!models/README.md
+!data/README.md
